@@ -102,7 +102,7 @@ typedef NS_OPTIONS(NSUInteger, JDFlipAnimationDirection) {
     // automatically detect animation type
     self.animationType = JDFlipAnimationTypeTopDown;
     if (newValue < self.value) {
-        self.animationType = JDFlipAnimationTypeBottomUp;
+        self.animationType = JDFlipAnimationTypeTopDown;
     }
     
     // animate to new value
